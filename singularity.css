@@ -8,15 +8,18 @@ body{
   color:white;
 }
 .card{
-    background-color: #555555;
+    background-color: #2a3535;
     margin-bottom:5px;
+    border:none;
     
 }
+
 .buildtitle{
     background-color: #222222;
     border-radius: 10px;
-    margin-bottom:5px;
-    box-shadow: 10px 10px 5px #444444;
+    
+   
+    
 }
 .buildnumber {
     color:#cccccc;
@@ -24,8 +27,7 @@ body{
     font-size: 16pt;
 }
 .changelogtoggle {
-    box-shadow: 5px 5px 1px #444444;
-    margin-right:5px;
+    margin-top:12px;
 }
 .croppedheader{
     background-image: url('./images/singularity_logo_cropped.png');
@@ -37,9 +39,10 @@ body{
 }
 
 .logo_os img {
-    margin-right:30px;
+    margin-right:10px;
     margin-bottom: 5px;
     height:40px;
+    margin-top:10px;
 }
 #footer {
     position: absolute;
