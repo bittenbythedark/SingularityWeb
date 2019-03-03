@@ -121,3 +121,11 @@ body{
 {
 border:none; //Probably could eliminate that but who cares xD
 }
+.headerlogo_width
+{
+    width:960px;
+}
+.row_custom
+{
+    margin-top:10px;
+}
