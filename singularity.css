@@ -29,8 +29,13 @@ body{
     border:none;
     
 }
-
-
+.card-text {
+    background-color: #333333;
+    border-radius: 15px !important;
+}
+.changelog{
+    margin-top:10px;
+}
 .buildtitle{
     background-color: #222222;
     border-radius: 15px !important;
