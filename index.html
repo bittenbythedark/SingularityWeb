@@ -22,10 +22,7 @@
 </head>
 <body>
     <div class="container-fluid">
-            <!--<div style="height: 144px;width:944px;background-image: url('http://alpha.singularityviewer.org/alpha/images/singularity_logo.gif');display:table;"><h4 class="text-right align-bottom" style="height:100%;display:table-cell; vertical-align:middle">Automated alpha builds</h4></div>-->
-            
-            
-                
+              
                 <div class="row croppedheader">
                         <div class="col-3"></div>
                         <div class="col-6">
@@ -42,13 +39,20 @@
                 </div>
                 <div class="row" style="margin-top:10px;">
                     
-                    <div class="col-3"><p class="text-right">Select a channel:</p></div>
-                    <div class="col-1"><select>
-                        <option value="SingularityAlpha">SingularityAlpha</option>
-                        <option value="Second channel">Second channel</option>
-                        <option value="Third Channel">Third Channel</option>
-                    </select></div>
-                    <div class="col-6">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <form class="form-inline">
+                            <div class="form-group mb-4">
+                                <label for="channelselector">Channel:</label>
+                                <select id="channelselector" class="custom-select">
+                                    <option value="SingularityAlpha">SingularityAlpha</option>
+                                    <option value="Second channel">Second channel</option>
+                                    <option value="Third Channel">Third Channel</option>
+                                </select>
+                            </div>    
+                        </form>
+                    </div>
+                    <div class="col-4">
                             
                             <nav>
                                 <ul class="pagination pagination-sm justify-content-end">
@@ -167,6 +171,27 @@
             </div>        
                     
         
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+                
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                    
+                    <nav>
+                        <ul class="pagination pagination-sm justify-content-end">
+                            
+                            <li class="page-item">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&#171;</a>
+                            </li>
+                            <span class="page-number">page 1 of 9&nbsp;</span>
+                            <li class="page-item">
+                            <a class="page-link" href="#">&#187;</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
     </div>
     <div id="footer">
         <div class="container-fluid text-center text-md-left">
