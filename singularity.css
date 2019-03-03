@@ -7,6 +7,22 @@ body{
   width:100%;
   color:white;
 }
+.header{
+    text-align: center;
+    background-image: url('./images/singularity_logo_cropped.png');
+}
+.headerlogo {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
 .card{
     background-color: #2a3535;
     margin-bottom:5px;
@@ -14,10 +30,11 @@ body{
     
 }
 
+
 .buildtitle{
     background-color: #222222;
-    border-radius: 10px;
-    
+    border-radius: 15px !important;
+    height:80px;
    
     
 }
@@ -34,7 +51,6 @@ body{
     margin-left:-50px;
 }
 .alphatitle{
-    margin-top:-140px;
     text-shadow: 10px 10px 5px #000000;
 }
 
@@ -73,6 +89,9 @@ body{
 .page-number {
     font-size:10pt;
     margin: 5px;
+}
+.page-link {
+    border:none;
 }
 .colos {
     background-color:#2f3535;
