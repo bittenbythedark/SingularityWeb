@@ -1,1 +1,2 @@
-# SingularityWeb The new Alpha Site For Viewer Builds
+# SingularityWeb The new Site For Viewer Builds
+# Using MySQL and PHP7
